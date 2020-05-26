@@ -1,0 +1,108 @@
+body {
+	font-family: 'EB Garamond' !important;
+	font-size: 18px !important;
+}
+
+h4 {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 25px;
+	font-size: 2.5em !important;
+	letter-spacing: 0.2em;
+	font-family: 'Jost';
+}
+
+/*cursor to pointer for links*/
+a {
+	cursor: pointer;
+}
+
+/*spacing between menu bar links*/
+@media (min-width: 800px) {
+	.navbar-nav li {
+		margin-left: 2em;
+		margin-right: 2em;
+	}
+}
+
+.citation {
+	font-size: 0.5em;
+	text-align: center;
+}
+
+.carouselImage {
+	width: 80vw;
+	height: 44vh;
+}
+
+@media (min-width: 1000px){
+	.carouselImage {
+		width: 90vw;
+		height: 55vh;
+	}
+}
+
+#carouselExampleControls {
+	width: 90%;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+.sectionHeader {
+	padding-top: 24px;
+	padding-bottom: 24px;
+	font-weight: 700;
+}
+
+.timelineScroll {
+	width: 80%;
+	height: 70vh;
+	margin: auto;
+	overflow: auto;
+	border: 2px solid #dedede;
+}
+
+.fas {
+	padding-bottom: 20px;
+}
+
+textarea {
+    width: 330px;
+    height: 150px;
+}
+
+ul {
+	list-style: none;
+	text-align: center;
+}
+
+li {
+	padding-bottom: 3px;
+}
+
+.highlights, p {
+	text-align: center;
+}
+
+.vids {
+	width: 720px;
+	height: 400px;
+	padding-bottom: 20px;
+}
+
+.wallpaper {
+	padding-top: 24px;
+}
+
+/*display based on orientation style*/
+@media screen and (orientation: landscape) {
+	#wallpaperSlim {
+		height: 150%;
+	}
+}
+
+@media screen and (orientation: portrait) {
+	#wallpaperSlim {
+		height: 50%;
+	}
+}
